@@ -1,4 +1,4 @@
-import {Profile} from './Profile/Profile';
+import {Profile} from 'components/Profile/Profile';
 import user from './user.json';
 import {Statistics} from './Statistics/Statistics';
 import data from './data.json';

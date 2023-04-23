@@ -1,0 +1,37 @@
+.item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 15px;
+    gap: 15px; 
+    width: 300px;
+    height: 70px;
+    background-color:bisque;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.statusOn {
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    border-radius: 100%;
+}
+
+.statusOf {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 100%;
+}
+
+.avatar {
+    border: 0vmin solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: calc(31/26);
+    color: #000000;
+}
